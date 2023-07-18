@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "com.bawnorton.animatedtrims.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "plugin": "com.bawnorton.animatedtrims.AnimatedTrimsMixinConfigPlugin",
+  "client": [
+    "client.ArmorFeatureRendererMixin",
+    "client.ArmorTrimMixin",
+    "client.BakedModelManagerMixin",
+    "client.ItemModelGeneratorMixin",
+    "client.GameRendererMixin",
+    "client.ModelOverrideListMixin",
+    "client.ModelOverrideListMixin$InlinedConditionMixin",
+    "client.ModelOverrideMixin",
+    "client.ModelOverrideMixin$ConditionMixin",
+    "client.ModelOverrideMixin$DeserializerMixin",
+    "client.NamespaceResourceManagerMixin",
+    "client.PalettedPermutationsAtlasSourceMixin"
+  ],
+  "mixins": [
+    "DataPackContentsMixin",
+    "ElytraItemMixin",
+    "ItemMixin",
+    "RegistryLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

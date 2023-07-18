@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "animatedtrims",
+  "version": "${version}",
+  "name": "AnimatedTrims",
+  "description": "A mod that adds animated trim materials to the game.",
+  "authors": [
+    "Bawnorton"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Benjamin-Norton/AnimatedTrims",
+    "sources": "https://github.com/Benjamin-Norton",
+    "issues": "https://github.com/Benjamin-Norton/AnimatedTrims/issues"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/animatedtrims/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bawnorton.animatedtrims.fabric.AnimatedTrimsFabric"
+    ],
+    "client": [
+      "com.bawnorton.animatedtrims.fabric.client.AnimatedTrimsFabricClient"
+    ],
+    "modmenu": [
+      "com.bawnorton.animatedtrims.fabric.client.implementation.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "animatedtrims.mixins.json",
+    "animatedtrims-common.mixins.json"
+  ],
+  "accessWidener": "animatedtrims.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "fabric-api": "*",
+    "architectury": ">=9.0.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "animatedtrims.website": "https://bawnorton.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "item.animatedtrims.rainbow_material": "Rainbow Material",
+  "item.animatedtrims.rainbow_wave_material": "Rainbow Wave Material",
+  "item.animatedtrims.red_material": "Red Material",
+  "item.animatedtrims.red_wave_material": "Red Wave Material",
+  "item.animatedtrims.orange_material": "Orange Material",
+  "item.animatedtrims.orange_wave_material": "Orange Wave Material",
+  "item.animatedtrims.yellow_material": "Yellow Material",
+  "item.animatedtrims.yellow_wave_material": "Yellow Wave Material",
+  "item.animatedtrims.green_material": "Green Material",
+  "item.animatedtrims.green_wave_material": "Green Wave Material",
+  "item.animatedtrims.blue_material": "Blue Material",
+  "item.animatedtrims.blue_wave_material": "Blue Wave Material",
+  "item.animatedtrims.purple_material": "Purple Material",
+  "item.animatedtrims.purple_wave_material": "Purple Wave Material",
+  "item.animatedtrims.magenta_material": "Magenta Material",
+  "item.animatedtrims.magenta_wave_material": "Magenta Wave Material",
+  "item.animatedtrims.white_material": "White Material",
+  "item.animatedtrims.white_wave_material": "White Wave Material",
+
+  "tooltip.elytratrims.missing": "§cRequires Elytra Trims to render trim",
+
+  "yacl.animatedtrims.title": "Animated Trims Config",
+  "yacl.animatedtrims.category.general": "General",
+  "yacl.animatedtrims.tooltip.general": "General Settings",
+  "yacl.animatedtrims.group.main": "Main",
+  "yacl.animatedtrims.description.main": "Main Settings",
+  "yacl.animatedtrims.name.wave_intensity": "Wave Intensity",
+  "yacl.animatedtrims.description.wave_intensity": "How intense the wave effect is",
+  "yacl.animatedtrims.group.debug": "Debug",
+  "yacl.animatedtrims.description.debug": "Debug Settings",
+  "yacl.animatedtrims.name.debug": "Debug",
+  "yacl.animatedtrims.description.debug1": "Toggle Debug mode",
+  "yacl.animatedtrims.description.debug2": "When enabled, debug files will be generated in the game folder",
+  "yacl.animatedtrims.description.debug3": "§cRequires a restart and to join a world to generate the debug files",
+
+  "animatedtrims.website": "My Website"
+}

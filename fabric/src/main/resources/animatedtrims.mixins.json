@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.bawnorton.animatedtrims.mixin.fabric",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "client.ArmorFeatureRendererMixin",
+    "client.ArmorTrimMixin",
+    "client.ModelOverrideListMixin",
+    "client.bclib.HumanoidArmorRendererMixin",
+    "client.bclib.PatternsHelperMixin",
+    "client.elytratrims.ExtraElytraFeatureRendererMixin",
+    "client.mythicmetals.MythicMetalsClientMixin"
+  ],
+  "mixins": [
+    "client.bclib.CustomModelBakeryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
